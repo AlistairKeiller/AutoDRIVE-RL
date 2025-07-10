@@ -2,3 +2,4 @@
 	path = AutoDRIVE
 	url = https://github.com/Tinker-Twins/AutoDRIVE.git
 	branch = AutoDRIVE-Simulator
+	ignore = dirty
