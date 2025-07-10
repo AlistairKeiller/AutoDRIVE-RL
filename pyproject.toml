@@ -3,7 +3,7 @@ name = "autodrive-rl"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.13"
 dependencies = [
     "gym-unity==0.26.0",
     "mlagents-envs==0.26.0",
