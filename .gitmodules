@@ -3,3 +3,6 @@
 	url = https://github.com/Tinker-Twins/AutoDRIVE.git
 	branch = AutoDRIVE-Simulator
 	ignore = dirty
+[submodule "sheeprl"]
+	path = sheeprl
+	url = https://github.com/Eclectic-Sheep/sheeprl.git
