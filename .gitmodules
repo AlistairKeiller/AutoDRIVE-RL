@@ -5,4 +5,4 @@
 	ignore = dirty
 [submodule "sheeprl"]
 	path = sheeprl
-	url = https://github.com/Eclectic-Sheep/sheeprl.git
+	url = https://github.com/AlistairKeiller/sheeprl.git
