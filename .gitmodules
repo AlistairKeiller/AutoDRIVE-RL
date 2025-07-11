@@ -1,6 +1,6 @@
 [submodule "AutoDRIVE"]
 	path = AutoDRIVE
-	url = https://github.com/Tinker-Twins/AutoDRIVE.git
+	url = https://github.com/AlistairKeiller/AutoDRIVE.git
 	branch = AutoDRIVE-Simulator
 	ignore = dirty
 [submodule "sheeprl"]
