@@ -26,3 +26,23 @@ uv run sheeprl/sheeprl.py exp=dreamer_v3_autodrive env=autodrive
 ```
 It will prompt you to "Start training by pressing the Play button in the Unity Editor" twice (the first time is for configuration, the second time is for training). Now you should have DreamerV3 running in the AutoDRIVE simulator!
 
+## Ros setup
+
+```bash
+source /opt/ros/humble/setup.bash
+colcon build
+source install/setup.bash
+```
+Then you can run
+```bash
+ros2 launch autodrive_f1tenth simulator_bringup_headless.launch.py
+```
+for headless,
+```bash
+ros2 launch autodrive_f1tenth simulator_bringup_rviz.launch.py
+```
+for rvis, and
+```bash
+ros2 run autodrive_f1tenth teleop_keyboard
+```
+for teleop
